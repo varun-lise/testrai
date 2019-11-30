@@ -1,2 +1,2 @@
-# testrai
-api-test 
+# api-tests
+api tests template 
