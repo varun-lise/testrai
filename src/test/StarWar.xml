@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="/Users/machd/Work/testrai/src/test">
+        <classes>
+
+            <class name="all.StarwarPersonTests">
+                <methods>
+                    <include name="getPeopleTest"/>
+                    <include name="getPeopleAsJson"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
